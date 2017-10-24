@@ -1,8 +1,8 @@
 require(ggplot2)
 library(gridExtra)
 
-setwd('D:/Trambak/Side Information/Real Data/timecourse')
-source('D:/Trambak/Side Information/simulations/sideinfo_lib.R')
+#setwd('D:/Trambak/Side Information/Real Data/timecourse')
+source('sideinfo_lib.R')
 
 # read data
 dat<- read.csv('ImmuTimeCourse.txt', header = TRUE, sep = " ")
