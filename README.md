@@ -1,13 +1,8 @@
 What is ASUS?
 ======
 
-COSCI (COnvex Screening for Cluster Information) is a non-parametric method for ranking and screening non-informative features in large scale cluster analysis problems. Unlike the non-parametric density estimation based screening techniques, COSCI is very
-scalable, and can successfully handle datasets with more than one million observations. COSCI discards non-informative features by first computing a clustering score for the clustering tree constructed for each feature, and then thresholds the resulting values.
-
-Perfect Screening Property
----------
-
-COSCI produces a score for each feature, which reflects its relative importance for clustering, and then screens out the features with lower scores. It enjoys a perfect screening property in the sense that under mild regularity conditions on the densities of the features, COSCI screens out all the non-informative features with high probability.
+ASUS (Adaptive SURE-thresholding Using Side information) is a general framework for estimating a high dimensional sparse parameter in the presence of auxiliary data that encode side information on sparsity.  It is a robust data
+combination procedure in the sense that even when pooling non-informative auxiliary data ASUS would be at least as efficient as competing soft thresholding based methods that do not use auxiliary data.
 
 How to use this repository?
 ----------
@@ -16,9 +11,5 @@ This repository holds the scripts that reproduce the analysis in the paper [1]. 
 
 References
 =======
-[1.] [Feature Screening in Large Scale Cluster Analysis](http://www.sciencedirect.com/science/article/pii/S0047259X17300271)    
-Banerjee, T., Mukherjee, G. and Radchenko P.  *Journal of Multivariate Analysis, Volume 161, 2017, Pages 191-212, ISSN 0047-259X*
-
-[2.] [Convex clustering via ℓ1 fusion penalization](http://onlinelibrary.wiley.com/doi/10.1111/rssb.12226/abstract)   
-Radchenko P., Mukherjee G.   *J. R. Stat. Soc. Ser. B Stat. Methodol. (2017)*
-
+[1.] [Adaptive Sparse Estimation with Side Information](http://www-bcf.usc.edu/~wenguans/Papers/ASUS.pdf)    
+Banerjee, T., Mukherjee, G. and Sun, W.
