@@ -8,7 +8,7 @@ asymptotically optimal.
 How to use this repository?
 ----------
 
-This repository holds the scripts that reproduce the analysis in the paper [1]. Send me an email if anything does not work as expected.
+This repository holds the scripts that reproduce the analysis in the paper [1]. Send me an email if anything does not work as expected. If you are looking for the associated R-package for ASUS, please visit [this](https://github.com/trambakbanerjee/asus#asus) page.
 
 References
 =======
